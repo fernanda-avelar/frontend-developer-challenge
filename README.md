@@ -21,5 +21,6 @@
 * Enviar os cards do arquivo JS para a página com um querySelector
 * Desenvolver o botão de "Ainda mais produtos aqui!"
 
+### Link Live Preview 
 
-
+>https://fernanda-avelar.netlify.com/
