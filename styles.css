@@ -1,0 +1,211 @@
+/* Import font helvetica */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/helveticaneue.ttf") format("truetype");
+}
+
+/* 
+MAIN COLOR: #707070
+FONT: Helvetica Neue
+BACKGROUND BUTTONS: #888888
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", sans-serif !important;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Header Config */
+.header {
+  background-color: #707070;
+  padding-top: 24px;
+  width: 100%;
+  height: 319px;
+  text-align: center;
+}
+
+.header_tittle {
+  text-align: center;
+  height: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.header_subtitle {
+  height: 45px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.header_sub_desc {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 25;
+}
+
+.btn_top {
+  margin-top: 50px;
+}
+
+.white_btn {
+  display: inline-block;
+  color: #888888;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  box-shadow: 0px 1px 6px #00000029;
+  border-radius: 4px;
+  text-decoration: none;
+  width: 160px;
+  height: 40px;
+  margin: 0 20px;
+  font-size: 0.85 rem;
+  text-align: center;
+}
+
+/*  */
+.container_sec {
+  width: 100%;
+  text-align: center;
+}
+
+.text_special {
+  color: #888888;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 48px;
+}
+
+/* Style of the products cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  width: 923px;
+  margin: 0 auto;
+  gap: 40px 40px;
+}
+
+.card {
+  width: 100%;
+  height: 360px;
+}
+
+.card_img {
+  height: 150px;
+  width: 100%;
+  border: 1px solid #707070;
+  text-align: center;
+}
+
+.card_img img {
+  height: 100%;
+  width: auto;
+}
+
+.card_name {
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888;
+  text-align: left;
+}
+
+.card_desc,
+.card_oldPrice,
+.card_quota {
+  font-size: 12px;
+  color: #888888;
+  text-align: left;
+}
+
+.card_price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #888888;
+  text-align: left;
+}
+
+.card_but {
+  font-size: 16px;
+  color: #888888;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 4px;
+}
+
+.btn_products {
+  color: #888888;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 48.67px;
+  width: 260px;
+  height: 39px;
+}
+
+.share {
+  color: #888888;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.friends {
+  color: #888888;
+  font-size: 14px;
+  height: 16px;
+  margin: 44px;
+}
+
+.form {
+  border: 1px #707070;
+  font-size: 12px;
+  color: #888888;
+}
+
+.field_wrapper {
+  display: inline-block;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.form_info {
+  width: 340px;
+  height: 30px;
+}
+
+.btn_send {
+  color: #888888;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 50px;
+  width: 260px;
+  height: 39px;
+}
+
+.footer {
+  background-color: #707070;
+  height: 201 px;
+  margin: 0;
+  border: 1px solid #707070;
+  top: 1828px;
+}
+
+.footer_copyright {
+  color: #ffffff;
+  font-weight: lighter;
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 64.64;
+}
